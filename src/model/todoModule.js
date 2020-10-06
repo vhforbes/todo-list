@@ -1,30 +1,6 @@
 import { newTodo } from '../factory/todos'
 
 
-const todoData = (() => {
-
-  const newTodoList = (...allTodos) => {
-    let todosArray = []
-
-    for (let todo of allTodos) {
-      todosArray.push(todo)
-    }
-
-    return todosArray
-  }
-
-  const updateTodoList = todoArry => {
-
-
-    // Modify the given array
-  } 
-
-  return {
-    newTodoList,
-  }
-
-})()
-
 
 const todoFunctions = (() => {
 
@@ -47,5 +23,4 @@ const todoFunctions = (() => {
 
 export { 
   todoFunctions,
-  todoData,
 }

@@ -1,5 +1,10 @@
-  const newProject = (name, description, todo) => {
-    return {name, description, todo}
+  const newProject = (name, description, todo = {}, id) => {
+    return {
+      name, 
+      description, 
+      todo,
+      id,
+    }
   }
   
   export { newProject }

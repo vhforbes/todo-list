@@ -24,6 +24,8 @@ const todoDom = (() => {
     return allTodosDiv
   }
 
+  
+
 
   return {
     showTodos,
